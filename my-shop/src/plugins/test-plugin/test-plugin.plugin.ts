@@ -6,7 +6,7 @@ import {
   @VendurePlugin({
     imports: [PluginCommonModule],
     compatibility: "^3.0.0",
-    dashboard: 'ui/test-plugin.extension.ts'
+    dashboard: './ui/test-plugin.extension.ts'
   })
   export class TestPlugin {}
   
